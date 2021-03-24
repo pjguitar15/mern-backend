@@ -11,5 +11,5 @@ const PersonSchema = new mongoose.Schema({
 })
 
 // string is collection name
-const Person = mongoose.model('persondata', PersonSchema)
+const Person = mongoose.model('person', PersonSchema)
 module.exports = Person

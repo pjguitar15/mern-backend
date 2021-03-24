@@ -11,7 +11,7 @@ app.use(cors())
 app.use(express.json())
 
 // connection to database
-mongoose.connect('mongodb+srv://pjguitar15:Nktw1aaa3@mern-cheatsheet.hqlgb.mongodb.net/people?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://pjguitar15:Nktw1aaa3@cluster0.zl3q5.mongodb.net/people?retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 })
