@@ -16,6 +16,10 @@ mongoose.connect('mongodb+srv://pjguitar15:Nktw1aaa3@cluster0.zl3q5.mongodb.net/
   useUnifiedTopology: true
 })
 
+mongoose.connection.on('connected', () => {
+    console.log('Mongoose connected successfully')
+  })
+
 app.post('/insert', async (req, res) => {
 
   const personName = req.body.personName
